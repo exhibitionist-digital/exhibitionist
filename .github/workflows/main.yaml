@@ -22,7 +22,7 @@ jobs:
           deno-version: 1.18.2
 
       - name: Build site
-        run: root=https://exhibitionist.digital deno run -A https://9e38-2001-8004-2728-1ec7-91ef-5071-d996-998c.ngrok.io/src/deno/build.ts
+        run: root=https://exhibitionist.digital deno run -A https://662c-2001-8004-2728-1ec7-91ef-5071-d996-998c.ngrok.io/src/deno/build.ts
 
       - name: Upload to Deno Deploy
         uses: denoland/deployctl@v1
