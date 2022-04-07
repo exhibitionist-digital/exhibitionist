@@ -42,23 +42,9 @@ const Ultra = ({ cache }) => {
       </Helmet>
       <div className="full">
         <Title />
-        <nav>
-          <Link href="/" className={location == "/" ? "selected" : ""}>
-            DIGITAL
-          </Link>
-          <Link
-            href="/open-source"
-            className={location == "/open-source" ? "selected" : ""}
-          >
-            OPEN-SOURCE
-          </Link>
-        </nav>
         <Switch>
           <Route path="/">
             <Index />
-          </Route>
-          <Route path="/open-source">
-            <OS />
           </Route>
           <Route path="/:slug" component={Project} />
           <Route>
