@@ -1,40 +1,11 @@
 import { useEffect, useRef, useState } from "react";
 import useAsset from "ultra/hooks/use-asset.js";
 
-const Lu = ({ links = [] }) => {
-  return (
-    <>
-      <h1>LU YANG</h1>
-      {links.map((l) => <h2>{l.title}</h2>)}
-    </>
-  );
-};
-
-const InProgress = ({ children }) => {
-  console.log({ children });
-  return (
-    <div>
-      <h4>In Progress:</h4>
-      {children}
-    </div>
-  );
-};
-
-const Completed = ({ children }) => {
-  console.log({ children });
-  return (
-    <div>
-      <h4>Completed:</h4>
-      {children}
-    </div>
-  );
-};
-
 const Split = ({ children }) => {
   return <div className="split">{children}</div>;
 };
 
-const Video = ({ src }) => {
+const Video = ({ src, alt }) => {
   const el = useRef();
   const [x, setX] = useState(0);
   const check = () => {
@@ -59,9 +30,9 @@ const Video = ({ src }) => {
       ref={el}
       style={{ width: `${x}%`, opacity: `${x * 2}%` }}
     >
-      <img src={useAsset(src)} />
+      <img src={useAsset(src)} alt={alt} />
     </div>
   );
 };
 
-export { Completed, InProgress, Lu, Split, Video };
+export { Split, Video };

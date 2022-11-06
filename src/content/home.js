@@ -19,7 +19,8 @@ function _createMdxContent(props) {
       id: "providing-digital-realities-for-artists-museums--festivals",
       children: "Providing digital realities for artists, museums + festivals"
     }), "\n", _jsx(_components.hr, {}), "\n", _jsx(Video, {
-      src: "/luyang.webp"
+      src: "/luyang.webp",
+      alt: "Dancer in front of screen"
     }), "\n", _jsx(_components.h3, {
       id: "lu-yang",
       children: "Lu Yang"
@@ -49,7 +50,8 @@ function _createMdxContent(props) {
         }), " (2020)"]
       }), "\n"]
     }), "\n", _jsx(_components.hr, {}), "\n", _jsx(Video, {
-      src: "/mona.webp"
+      src: "/mona.webp",
+      alt: "People waiting in line"
     }), "\n", _jsx(_components.h3, {
       id: "hypertickets",
       children: _jsx(_components.a, {
@@ -77,7 +79,8 @@ function _createMdxContent(props) {
         }), ": (2022—current)"]
       }), "\n"]
     }), "\n", _jsx(_components.hr, {}), "\n", _jsx(Video, {
-      src: "/miracle.webp"
+      src: "/miracle.webp",
+      alt: "Art exhibition photo"
     }), "\n", _jsx(_components.h3, {
       id: "patricia-piccinini",
       children: "Patricia Piccinini"
@@ -93,7 +96,8 @@ function _createMdxContent(props) {
         }), " (2021—2022)"]
       }), "\n"]
     }), "\n", _jsx(_components.hr, {}), "\n", _jsx(Video, {
-      src: "/saddest-factory.webp"
+      src: "/saddest-factory.webp",
+      alt: "Phoebe Bridgers at office desk"
     }), "\n", _jsx(_components.h3, {
       id: "jagjaguwar",
       children: "JAGJAGUWAR"
