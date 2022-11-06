@@ -154,6 +154,11 @@ h4 {
   margin-top: 0;
 }
 
+p {
+  max-width: 450px;
+  display: inline-block;
+}
+
 .xxx video,
 .xxx img {
   height: 100%;

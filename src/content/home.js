@@ -79,6 +79,27 @@ function _createMdxContent(props) {
         }), ": (2022—current)"]
       }), "\n"]
     }), "\n", _jsx(_components.hr, {}), "\n", _jsx(Video, {
+      src: "/150.webp",
+      alt: "150 Lonsdale"
+    }), "\n", _jsx(_components.h3, {
+      id: "stanislava-pinchuk",
+      children: _jsx(_components.a, {
+        href: "https://stanislavapinchuk.com",
+        children: "Stanislava Pinchuk"
+      })
+    }), "\n", _jsx(_components.p, {
+      children: "We made the climate change detector which powers dynamic lighting on the facade of 150 Lonsdale, where it will stay for the next 15 years."
+    }), "\n", _jsxs(_components.ul, {
+      children: ["\n", _jsxs(_components.li, {
+        children: [_jsx(_components.a, {
+          href: "https://www.broachedcommissions.com/",
+          children: "Broached Commissions"
+        }), ": ", _jsx(_components.a, {
+          href: "https://www.wesleyplace.com.au/news/news-details/2022/09/14/introducing-axionome-by-stanislava-pinchuk",
+          children: "Wesley Place"
+        }), " (2022—current)"]
+      }), "\n"]
+    }), "\n", _jsx(_components.hr, {}), "\n", _jsx(Video, {
       src: "/miracle.webp",
       alt: "Art exhibition photo"
     }), "\n", _jsx(_components.h3, {
@@ -114,6 +135,27 @@ function _createMdxContent(props) {
           href: "https://xag.jagjaguwar.com",
           children: "XAGXAGUVAR"
         })
+      }), "\n"]
+    }), "\n", _jsx(_components.hr, {}), "\n", _jsx(Video, {
+      src: "/faux-mo.webp",
+      alt: "Mountain FM"
+    }), "\n", _jsxs(_components.h3, {
+      id: "faux-mo--mona-foma",
+      children: ["FAUX MO / ", _jsx(_components.a, {
+        href: "https://monafoma.net.au",
+        children: "Mona Foma"
+      })]
+    }), "\n", _jsx(_components.p, {
+      children: "Live streaming, 3D animations, and hard vibes."
+    }), "\n", _jsxs(_components.ul, {
+      children: ["\n", _jsxs(_components.li, {
+        children: [_jsx(_components.strong, {
+          children: "Mountain FM"
+        }), ": (2021)"]
+      }), "\n", _jsxs(_components.li, {
+        children: [_jsx(_components.strong, {
+          children: "House Party"
+        }), ": (2022)"]
       }), "\n"]
     }), "\n", _jsx(_components.hr, {}), "\n", _jsx(_components.h3, {
       id: "open-source",
@@ -166,21 +208,10 @@ function _createMdxContent(props) {
         })]
       }), _jsxs("div", {
         children: [_jsx(_components.h4, {
-          id: "recently-completed",
-          children: "Recently Completed:"
+          id: "previously-completed",
+          children: "Previously Completed:"
         }), _jsxs(_components.ul, {
           children: ["\n", _jsxs(_components.li, {
-            children: [_jsx(_components.strong, {
-              children: "Broached Commissions"
-            }), ": 150 Facade projection artwork by ", _jsx(_components.a, {
-              href: "https://stanislavapinchuk.com",
-              children: "Stanislava Pinchuk"
-            })]
-          }), "\n", _jsxs(_components.li, {
-            children: [_jsx(_components.strong, {
-              children: "Faux Mo"
-            }), ": (2020—2021) Livestreaming, 3D animation and digital"]
-          }), "\n", _jsxs(_components.li, {
             children: [_jsx(_components.strong, {
               children: "Australia Arts Council"
             }), ": ", _jsx(_components.a, {
