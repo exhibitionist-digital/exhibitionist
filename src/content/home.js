@@ -117,26 +117,6 @@ function _createMdxContent(props) {
         }), " (2021—2022)"]
       }), "\n"]
     }), "\n", _jsx(_components.hr, {}), "\n", _jsx(Video, {
-      src: "/saddest-factory.webp",
-      alt: "Phoebe Bridgers at office desk"
-    }), "\n", _jsx(_components.h3, {
-      id: "jagjaguwar",
-      children: "JAGJAGUWAR"
-    }), "\n", _jsx(_components.p, {
-      children: "Design and development, websites for record labels."
-    }), "\n", _jsxs(_components.ul, {
-      children: ["\n", _jsx(_components.li, {
-        children: _jsx(_components.a, {
-          href: "https://saddestfactoryrecords.com",
-          children: "Saddest Factory Records"
-        })
-      }), "\n", _jsx(_components.li, {
-        children: _jsx(_components.a, {
-          href: "https://xag.jagjaguwar.com",
-          children: "XAGXAGUVAR"
-        })
-      }), "\n"]
-    }), "\n", _jsx(_components.hr, {}), "\n", _jsx(Video, {
       src: "/faux-mo.webp",
       alt: "Mountain FM"
     }), "\n", _jsxs(_components.h3, {
@@ -156,6 +136,26 @@ function _createMdxContent(props) {
         children: [_jsx(_components.strong, {
           children: "House Party"
         }), ": (2022)"]
+      }), "\n"]
+    }), "\n", _jsx(_components.hr, {}), "\n", _jsx(Video, {
+      src: "/saddest-factory.webp",
+      alt: "Phoebe Bridgers at office desk"
+    }), "\n", _jsx(_components.h3, {
+      id: "jagjaguwar",
+      children: "JAGJAGUWAR"
+    }), "\n", _jsx(_components.p, {
+      children: "Design and development, websites for record labels."
+    }), "\n", _jsxs(_components.ul, {
+      children: ["\n", _jsx(_components.li, {
+        children: _jsx(_components.a, {
+          href: "https://saddestfactoryrecords.com",
+          children: "Saddest Factory Records"
+        })
+      }), "\n", _jsx(_components.li, {
+        children: _jsx(_components.a, {
+          href: "https://xag.jagjaguwar.com",
+          children: "XAGXAGUVAR"
+        })
       }), "\n"]
     }), "\n", _jsx(_components.hr, {}), "\n", _jsx(_components.h3, {
       id: "open-source",
@@ -208,8 +208,8 @@ function _createMdxContent(props) {
         })]
       }), _jsxs("div", {
         children: [_jsx(_components.h4, {
-          id: "previously-completed",
-          children: "Previously Completed:"
+          id: "recently-completed",
+          children: "Recently Completed:"
         }), _jsxs(_components.ul, {
           children: ["\n", _jsxs(_components.li, {
             children: [_jsx(_components.strong, {
@@ -217,14 +217,14 @@ function _createMdxContent(props) {
             }), ": ", _jsx(_components.a, {
               href: "https://hubs.mozilla.com/D9Md29D/liveworks-day-for-night-rave",
               children: "Liveworks Day for Night Rave"
-            })]
+            }), " (2021)"]
           }), "\n", _jsxs(_components.li, {
             children: [_jsx(_components.strong, {
               children: "Australia Arts Council"
             }), ": ", _jsx(_components.a, {
               href: "https://hubs.mozilla.com/hs6uinL/enormous-timely-soiree",
               children: "Atong Atem Digital Exhibition"
-            })]
+            }), " (2020)"]
           }), "\n"]
         })]
       })]
