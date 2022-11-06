@@ -114,6 +114,11 @@ footer {
   margin: 3rem 0 6rem;
 }
 
+footer p {
+  display: block;
+  margin: 0.25rem auto;
+}
+
 ul,
 ol {
   padding: 0;

@@ -130,7 +130,9 @@ export default function App({ root }) {
                 colours
               </p>
               <p>
-                &mdash; <em>Iva Davies</em>, Icehouse
+                <strong>
+                  &mdash; <em>Iva Davies</em>, Icehouse
+                </strong>
               </p>
             </footer>
           </body>
