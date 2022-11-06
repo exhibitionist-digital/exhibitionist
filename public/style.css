@@ -176,7 +176,12 @@ p {
   width: 0%;
   will-change: width;
   position: relative;
-  background: linear-gradient(15deg, #cc4cfa, #00cfff, red 70%);
+  background: linear-gradient(
+    15deg,
+    #cf49ff 10%,
+    #00d0ff 25%,
+    rgb(153, 0, 0) 48%
+  );
   backface-visibility: hidden;
   background-attachment: fixed;
   mix-blend-mode: screen;
