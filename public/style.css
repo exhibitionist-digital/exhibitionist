@@ -166,6 +166,7 @@ p {
   position: absolute;
   top: 0;
   left: 0;
+  backface-visibility: hidden;
   object-fit: cover;
   mix-blend-mode: screen;
 }
@@ -175,7 +176,8 @@ p {
   width: 0%;
   will-change: width;
   position: relative;
-  background: linear-gradient(125deg, blue, red 70%);
+  background: linear-gradient(15deg, #cc4cfa, #00cfff, red 70%);
+  backface-visibility: hidden;
   background-attachment: fixed;
   mix-blend-mode: screen;
   margin-right: 1rem;
@@ -196,8 +198,8 @@ p {
   position: absolute;
   background-image: url("/texture.webp");
   background-size: cover;
-  mix-blend-mode: multiply;
-  opacity: 0.3;
+  mix-blend-mode: darken;
+  opacity: 0.2;
 }
 
 . @keyframes progress {
