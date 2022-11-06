@@ -1,0 +1,35 @@
+
+name: Basic / Deno Deploy
+
+on:
+  push:
+    branches: [main]
+
+
+jobs:
+  deploy:
+    name: Basic / Deno Deploy
+    runs-on: ubuntu-latest
+    permissions:
+      id-token: write
+      contents: read
+
+    steps:
+      - name: Clone repository
+        uses: actions/checkout@v2
+
+      - name: Install Deno
+        uses: denoland/setup-deno@main
+        with:
+          deno-version: 1.25.1
+
+      - name: Build site
+        run: deno run -A ./build.ts
+
+      - name: Upload to Deno Deploy
+        uses: denoland/deployctl@v1
+        with:
+          project: exhibitionist
+          entrypoint: server.js
+          root: .ultra
+          import-map: importMap.server.json
