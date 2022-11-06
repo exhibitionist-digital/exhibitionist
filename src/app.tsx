@@ -15,7 +15,7 @@ const Link = ({ href, children }) => {
   );
 };
 
-export default function App() {
+export default function App({ root }) {
   const title = "Exhibitionist Digital";
   const description =
     "Providing digital realities for artists, museums + festivals";
@@ -46,11 +46,11 @@ export default function App() {
             <meta property="twitter:description" content={description} />
             <meta
               property="og:image"
-              content={"https://ex2.fly.dev" + image}
+              content={root + image}
             />
             <meta
               property="twitter:image"
-              content={"https://ex2.fly.dev" + image}
+              content={root + image}
             />
           </head>
           <body>

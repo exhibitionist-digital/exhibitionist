@@ -11,9 +11,9 @@ const server = await createServer({
 });
 
 function ServerApp({ context }: any) {
-  const requestUrl = new URL(context.req.url);
+  const requestUrl = resolveUrl(context.req);
 
-  return <App />;
+  return <App root={requestUrl.origin} />;
 }
 
 server.get("*", async (context) => {
@@ -33,3 +33,19 @@ if (import.meta.main) {
   serve(server.fetch);
 }
 export default server;
+
+const resolveUrl = (req: Request) => {
+  const requestUrl = new URL(req.url);
+  // Reverse proxy servers (load balancers, CDNs, etc.) may have forwarded
+  // the original client request using a different protocol or host. E.g.
+  // Fly.io forwards `https:` requests to the deployed server using `http:`.
+  const headerXForwardedProto = req.headers.get("x-forwarded-proto");
+  if (headerXForwardedProto) {
+    requestUrl.protocol = headerXForwardedProto + ":";
+  }
+  const headerXForwardedHost = req.headers.get("x-forwarded-host");
+  if (headerXForwardedHost) {
+    requestUrl.hostname = headerXForwardedHost;
+  }
+  return requestUrl;
+};
