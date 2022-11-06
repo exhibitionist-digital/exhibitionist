@@ -49,6 +49,7 @@ figure {
   min-height: 500px;
   height: 100vh;
   height: 100svh;
+  width: 100%;
 }
 
 #bg figure,
@@ -56,6 +57,7 @@ figure {
   min-height: 500px;
   height: 100vh;
   height: 100svh;
+  width: 100%;
 }
 
 #ex {

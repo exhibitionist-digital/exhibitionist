@@ -60,10 +60,10 @@ export default function App({ root }) {
                 style={{
                   backgroundImage: `url(${useAsset("/construction.webp")})`,
                 }}
-                className={tw("w-screen bg-cover")}
+                className={tw(" bg-cover")}
               >
                 <section
-                  className={tw("w-screen absolute top-0")}
+                  className={tw("absolute top-0")}
                   style={{
                     backgroundImage:
                       "linear-gradient(rgba(0,0,0,0) 33%,rgba(0,0,0,1))",
@@ -79,7 +79,7 @@ export default function App({ root }) {
                 >
                   <figure
                     className={tw(
-                      "w-screen mix-blend-multiply bg-center bg-black absolute",
+                      " mix-blend-multiply bg-center bg-black absolute",
                     )}
                     style={{
                       backgroundImage: `url(${useAsset("/texture.webp")})`,
