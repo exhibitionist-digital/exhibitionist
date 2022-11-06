@@ -168,6 +168,7 @@ h4 {
 .xxx {
   height: 66vw;
   width: 0%;
+  will-change: width;
   position: relative;
   background: linear-gradient(125deg, blue, red 70%);
   background-attachment: fixed;
