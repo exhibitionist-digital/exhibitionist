@@ -1,5 +1,5 @@
 import useAsset from "ultra/hooks/use-asset.js";
-import { ACMI, DarkMofo, Jag, Mona, MonaFoma, Rising } from "./logos.tsx";
+import { ACMI, DarkMofo, Jag, Mona, MonaFoma, Rising, SOH } from "./logos.tsx";
 // Twind
 import { TwindProvider } from "./twind/TwindProvider.tsx";
 import { tw } from "twind";
@@ -116,11 +116,13 @@ export default function App({ root }) {
                 <Content />
               </section>
               <div id="logos">
-                <ACMI /> <DarkMofo />
+                <ACMI />
+                <DarkMofo />
                 <Jag />
                 <Mona />
                 <MonaFoma />
                 <Rising />
+                <SOH />
               </div>
             </main>
             <footer>
