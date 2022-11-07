@@ -169,6 +169,7 @@ p {
   height: 100%;
   width: 100%;
   position: absolute;
+  will-change: contents;
   top: 0;
   left: 0;
   backface-visibility: hidden;
