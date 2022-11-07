@@ -56,10 +56,13 @@ function _createMdxContent(props) {
       id: "hypertickets",
       children: _jsx(_components.a, {
         href: "https://hyper.tickets",
-        children: "Hypertickets"
+        children: "Hyper.tickets"
       })
-    }), "\n", _jsx(_components.p, {
-      children: "Modern digital tickets for museums and festivals."
+    }), "\n", _jsxs(_components.p, {
+      children: ["Modern digital tickets for museums and festivals. ", _jsx(_components.a, {
+        href: "https://hyper.tickets",
+        children: "Hyper.tickets"
+      })]
     }), "\n", _jsxs(_components.ul, {
       children: ["\n", _jsxs(_components.li, {
         children: [_jsx(_components.strong, {
