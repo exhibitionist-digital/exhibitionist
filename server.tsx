@@ -2,9 +2,6 @@ import { serve } from "https://deno.land/std@0.159.0/http/server.ts";
 import { createRouter, createServer } from "ultra/server.ts";
 import App from "./src/app.tsx";
 
-// Twind
-import "./src/twind/twind.ts";
-
 const server = await createServer({
   importMapPath: import.meta.resolve("./importMap.json"),
   browserEntrypoint: import.meta.resolve("./client.tsx"),

@@ -5,7 +5,7 @@ const Split = ({ children }) => {
   return <div className="split">{children}</div>;
 };
 
-const Video = ({ src, alt }) => {
+const Image = ({ src, alt }) => {
   const el = useRef();
   const [x, setX] = useState(0);
   const checkVisible = () => {
@@ -34,7 +34,7 @@ const Video = ({ src, alt }) => {
   }, [el]);
   return (
     <div
-      className="xxx"
+      className="slider"
       ref={el}
       style={{ width: `${x}%`, opacity: `${x * 2}%` }}
     >
@@ -43,4 +43,4 @@ const Video = ({ src, alt }) => {
   );
 };
 
-export { Split, Video };
+export { Image, Split };

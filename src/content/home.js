@@ -1,7 +1,7 @@
 /*@jsxRuntime automatic @jsxImportSource react*/
 import {Fragment as _Fragment, jsx as _jsx, jsxs as _jsxs} from "react/jsx-runtime";
 import {useMDXComponents as _provideComponents} from "@mdx-js/react";
-import {Split, Video} from '../lu.tsx';
+import {Split, Image} from '../slider.tsx';
 function _createMdxContent(props) {
   const _components = Object.assign({
     h2: "h2",
@@ -18,7 +18,7 @@ function _createMdxContent(props) {
     children: [_jsx(_components.h2, {
       id: "providing-digital-realities-for-artists-museums--festivals",
       children: "Providing digital realities for artists, museums + festivals"
-    }), "\n", _jsx(_components.hr, {}), "\n", _jsx(Video, {
+    }), "\n", _jsx(_components.hr, {}), "\n", _jsx(Image, {
       src: "/luyang.webp",
       alt: "Dancer in front of screen"
     }), "\n", _jsx(_components.h3, {
@@ -49,7 +49,7 @@ function _createMdxContent(props) {
           children: "ACMI"
         }), " (2020)"]
       }), "\n"]
-    }), "\n", _jsx(_components.hr, {}), "\n", _jsx(Video, {
+    }), "\n", _jsx(_components.hr, {}), "\n", _jsx(Image, {
       src: "/mona.webp",
       alt: "People waiting in line"
     }), "\n", _jsx(_components.h3, {
@@ -78,7 +78,7 @@ function _createMdxContent(props) {
           children: "Dark Mofo"
         }), ": (2022—current)"]
       }), "\n"]
-    }), "\n", _jsx(_components.hr, {}), "\n", _jsx(Video, {
+    }), "\n", _jsx(_components.hr, {}), "\n", _jsx(Image, {
       src: "/150.webp",
       alt: "150 Lonsdale"
     }), "\n", _jsx(_components.h3, {
@@ -99,7 +99,7 @@ function _createMdxContent(props) {
           children: "Wesley Place"
         }), " (2022—current)"]
       }), "\n"]
-    }), "\n", _jsx(_components.hr, {}), "\n", _jsx(Video, {
+    }), "\n", _jsx(_components.hr, {}), "\n", _jsx(Image, {
       src: "/miracle.webp",
       alt: "Art exhibition photo"
     }), "\n", _jsx(_components.h3, {
@@ -116,7 +116,7 @@ function _createMdxContent(props) {
           children: "Rising"
         }), " (2021—2022)"]
       }), "\n"]
-    }), "\n", _jsx(_components.hr, {}), "\n", _jsx(Video, {
+    }), "\n", _jsx(_components.hr, {}), "\n", _jsx(Image, {
       src: "/faux-mo.webp",
       alt: "Mountain FM"
     }), "\n", _jsxs(_components.h3, {
@@ -137,7 +137,7 @@ function _createMdxContent(props) {
           children: "House Party"
         }), ": (2022)"]
       }), "\n"]
-    }), "\n", _jsx(_components.hr, {}), "\n", _jsx(Video, {
+    }), "\n", _jsx(_components.hr, {}), "\n", _jsx(Image, {
       src: "/saddest-factory.webp",
       alt: "Phoebe Bridgers at office desk"
     }), "\n", _jsx(_components.h3, {

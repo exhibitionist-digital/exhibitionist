@@ -9,11 +9,7 @@ import {
   Rising,
   SOH,
 } from "./logos.tsx";
-// Twind
-import { TwindProvider } from "./twind/TwindProvider.tsx";
-import { tw } from "twind";
 import { MDXProvider } from "@mdx-js/react";
-
 import Content from "./content/home.js";
 
 const Link = ({ href, children }) => {
@@ -30,126 +26,134 @@ export default function App({ root }) {
     "Providing digital realities for artists, museums + festivals";
   const image = useAsset("/ex.webp");
   return (
-    <TwindProvider>
-      <MDXProvider
-        components={{
-          a: Link,
-        }}
-      >
-        <html lang="en">
-          <head>
-            <meta charSet="utf-8" />
-            <title>{title}</title>
-            <meta
-              name="viewport"
-              content="width=device-width, initial-scale=1"
-            />
-            <link rel="shortcut icon" href={useAsset("/favicon.ico")} />
-            <link rel="stylesheet" href={useAsset("/style.css")} />
-            <meta name="title" content={title} />
-            <meta name="description" content={description} />
-            <meta property="og:type" content="website" />
-            <meta property="og:title" content={title} />
-            <meta property="og:description" content={description} />
-            <meta property="twitter:title" content={title} />
-            <meta property="twitter:description" content={description} />
-            <meta
-              property="og:image"
-              content={root + image}
-            />
-            <meta
-              property="twitter:image"
-              content={root + image}
-            />
-          </head>
-          <body>
-            <main>
+    <MDXProvider
+      components={{
+        a: Link,
+      }}
+    >
+      <html lang="en">
+        <head>
+          <meta charSet="utf-8" />
+          <title>{title}</title>
+          <meta
+            name="viewport"
+            content="width=device-width, initial-scale=1"
+          />
+          <link rel="shortcut icon" href={useAsset("/favicon.ico")} />
+          <link rel="stylesheet" href={useAsset("/style.css")} />
+          <meta name="title" content={title} />
+          <meta name="description" content={description} />
+          <meta property="og:type" content="website" />
+          <meta property="og:title" content={title} />
+          <meta property="og:description" content={description} />
+          <meta property="twitter:title" content={title} />
+          <meta property="twitter:description" content={description} />
+          <meta
+            property="og:image"
+            content={root + image}
+          />
+          <meta
+            property="twitter:image"
+            content={root + image}
+          />
+        </head>
+        <body>
+          <main>
+            <section
+              id="bg"
+              style={{
+                backgroundImage: `url(${useAsset("/construction.webp")})`,
+              }}
+            >
               <section
-                id="bg"
                 style={{
-                  backgroundImage: `url(${useAsset("/construction.webp")})`,
+                  backgroundImage:
+                    "linear-gradient(rgba(0,0,0,0) 33%,rgba(0,0,0,1))",
+                  position: "absolute",
+                  top: 0,
                 }}
-                className={tw(" bg-cover")}
               >
-                <section
-                  className={tw("absolute top-0")}
+              </section>
+              <div
+                style={{
+                  mixBlendMode: "screen",
+                  backgroundAttachment: "fixed",
+                  zIndex: 0,
+                  backgroundColor: "black",
+                  backgroundImage:
+                    `linear-gradient(125deg,#f09 30%,#fc8b00,#ff0,#00ff8a,#00cfff,#cc4cfa 70%)`,
+                }}
+              >
+                <figure
                   style={{
-                    backgroundImage:
-                      "linear-gradient(rgba(0,0,0,0) 33%,rgba(0,0,0,1))",
+                    mixBlendMode: "multiply",
+                    backgroundPosition: "center",
+                    background: "black",
+                    position: "absolute",
+                    backgroundImage: `url(${useAsset("/texture.webp")})`,
+                    backgroundSize: "clamp(1em, 100vmin, 50em)",
                   }}
                 >
-                </section>
-                <div
-                  className={tw("mix-blend-screen bg-fixed z-0 bg-black")}
+                </figure>
+                <figure
+                  id="ex"
                   style={{
-                    backgroundImage:
-                      `linear-gradient(125deg,#f09 30%,#fc8b00,#ff0,#00ff8a,#00cfff,#cc4cfa 70%)`,
+                    zIndex: 3,
+                    backgroundImage: `url(${useAsset("/ex.svg")})`,
+                    backgroundSize: "70vmin",
+                    mixBlendMode: "multiply",
+                    backgroundPosition: "center",
+                    backgroundRepeat: "no-repeat",
+                    backgroundColor: "black",
+                    position: "relative",
                   }}
                 >
-                  <figure
-                    className={tw(
-                      " mix-blend-multiply bg-center bg-black absolute",
-                    )}
+                  <div
                     style={{
-                      backgroundImage: `url(${useAsset("/texture.webp")})`,
-                      backgroundSize: "clamp(1em, 100vmin, 50em)",
-                    }}
-                  >
-                  </figure>
-                  <figure
-                    id="ex"
-                    className={tw(
-                      "mix-blend-multiply bg-center bg-no-repeat bg-black relative",
-                    )}
-                    style={{
+                      backgroundPosition: "center",
+                      backgroundAttachment: "fixed",
+                      backgroundColor: "black",
+                      width: "100%",
+                      height: "100%",
+                      mixBlendMode: "overlay",
+                      position: "relative",
                       zIndex: 3,
-                      backgroundImage: `url(${useAsset("/ex.svg")})`,
-                      backgroundSize: "70vmin",
+                      backgroundImage:
+                        "linear-gradient(45deg,#333 40%,#ddd 60%,#333)",
                     }}
                   >
-                    <div
-                      className={tw(
-                        "bg-center bg-fixed bg-black w-full h-full mix-blend-overlay relative",
-                      )}
-                      style={{
-                        zIndex: 3,
-                        backgroundImage:
-                          "linear-gradient(45deg,#333 40%,#ddd 60%,#333)",
-                      }}
-                    >
-                    </div>
-                  </figure>
-                </div>
-              </section>
-              <section id="content" className={tw("m-auto px-6")}>
-                <Content />
-              </section>
-              <div id="logos">
-                <ACMI />
-                <DarkMofo />
-                <Jag />
-                <Mona />
-                <MonaFoma />
-                <Powerhouse />
-                <Rising />
-                <SOH />
+                  </div>
+                </figure>
               </div>
-            </main>
-            <footer>
-              <p>I am a man, a simple man, a man of colours</p>
-              <p>
-                And I can see, see through the years, years of a man, a man of
-                colours
-              </p>
-              <p>
-                <strong>
-                  &mdash; <em>Iva Davies</em>, Icehouse
-                </strong>
-              </p>
-            </footer>
-          </body>
-        </html>
-      </MDXProvider>
-    </TwindProvider>
+            </section>
+            <section id="content">
+              <Content />
+            </section>
+            <div id="logos">
+              <ACMI />
+              <DarkMofo />
+              <Jag />
+              <Mona />
+              <MonaFoma />
+              <Powerhouse />
+              <Rising />
+              <SOH />
+            </div>
+          </main>
+          <footer>
+            <p>I am a man, a simple man, a man of colours</p>
+            <p>
+              And I can see, see through the years, years of a man, a man of
+              colours
+            </p>
+            <p>
+              <strong>
+                &mdash; <em>Iva Davies</em>, Icehouse
+              </strong>
+            </p>
+          </footer>
+        </body>
+      </html>
+    </MDXProvider>
   );
 }
