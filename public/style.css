@@ -187,6 +187,7 @@ p {
   width: 0%;
   will-change: contents;
   position: relative;
+  transform: translate3d(0, 0, 0);
   backface-visibility: hidden;
   background: linear-gradient(
     15deg,
@@ -201,6 +202,7 @@ p {
 
 @media (orientation: landscape) {
   .slider {
+    transform: none;
     float: left;
     height: 33vw;
   }
