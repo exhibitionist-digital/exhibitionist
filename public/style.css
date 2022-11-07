@@ -169,7 +169,7 @@ p {
   height: 100%;
   width: 100%;
   position: absolute;
-  will-change: contents;
+  will-change: transform;
   top: 0;
   left: 0;
   backface-visibility: hidden;
@@ -180,7 +180,7 @@ p {
 .xxx {
   height: 66vw;
   width: 0%;
-  will-change: transform;
+  will-change: contents;
   position: relative;
   backface-visibility: hidden;
   background: linear-gradient(
