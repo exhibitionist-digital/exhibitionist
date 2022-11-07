@@ -165,6 +165,10 @@ p {
   display: inline-block;
 }
 
+#content {
+  padding: 0 clamp(1rem, 3vw, 2rem);
+}
+
 .slider video,
 .slider img {
   height: 100%;
