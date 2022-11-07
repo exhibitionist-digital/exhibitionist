@@ -205,7 +205,7 @@ function _createMdxContent(props) {
                 href: "https://rising.melbourne",
                 children: "Rising"
               })
-            }), ": Digital platform"]
+            }), ": Program and ticketing digital platform"]
           }), "\n", _jsxs(_components.li, {
             children: [_jsx(_components.strong, {
               children: "National Communications Museum"
@@ -223,18 +223,38 @@ function _createMdxContent(props) {
         }), _jsxs(_components.ul, {
           children: ["\n", _jsxs(_components.li, {
             children: [_jsx(_components.strong, {
-              children: "Australia Arts Council"
+              children: _jsx(_components.a, {
+                href: "https://rising.melbourne",
+                children: "Rising"
+              })
+            }), ": Program and ticketing digital platform (2021 + 2022)"]
+          }), "\n", _jsxs(_components.li, {
+            children: [_jsx(_components.strong, {
+              children: _jsx(_components.a, {
+                href: "https://australiacouncil.gov.au",
+                children: "Australia Arts Council"
+              })
             }), ": ", _jsx(_components.a, {
               href: "https://hubs.mozilla.com/D9Md29D/liveworks-day-for-night-rave",
               children: "Liveworks Day for Night Rave"
             }), " (2021)"]
           }), "\n", _jsxs(_components.li, {
             children: [_jsx(_components.strong, {
-              children: "Australia Arts Council"
+              children: _jsx(_components.a, {
+                href: "https://australiacouncil.gov.au",
+                children: "Australia Arts Council"
+              })
             }), ": ", _jsx(_components.a, {
               href: "https://hubs.mozilla.com/hs6uinL/enormous-timely-soiree",
               children: "Atong Atem Digital Exhibition"
             }), " (2020)"]
+          }), "\n", _jsxs(_components.li, {
+            children: [_jsx(_components.strong, {
+              children: _jsx(_components.a, {
+                href: "https://melbournefringe.com.au",
+                children: "Melbourne Fringe"
+              })
+            }), ": Self-service uploader for community submissions (2020)"]
           }), "\n"]
         })]
       })]
