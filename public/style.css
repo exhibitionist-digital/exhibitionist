@@ -94,10 +94,6 @@ figure {
   }
 }
 
-.split h3 {
-  color: #aaa;
-}
-
 hr {
   margin: 0;
   background: transparent;
@@ -171,7 +167,6 @@ p {
   position: absolute;
   top: 0;
   left: 0;
-  backface-visibility: hidden;
   object-fit: cover;
   mix-blend-mode: screen;
 }
@@ -187,7 +182,6 @@ p {
     #00d0ff 25%,
     rgb(153, 0, 0) 48%
   );
-  backface-visibility: hidden;
   background-attachment: fixed;
   mix-blend-mode: screen;
   margin-right: 1rem;

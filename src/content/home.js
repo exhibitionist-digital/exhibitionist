@@ -158,8 +158,8 @@ function _createMdxContent(props) {
         })
       }), "\n"]
     }), "\n", _jsx(_components.hr, {}), "\n", _jsx(_components.h3, {
-      id: "open-source",
-      children: "Open Source"
+      id: "open-source-",
+      children: "Open Source 👩🏻‍💻"
     }), "\n", _jsx(_components.p, {
       children: "We develop, maintain, and use much of the technology in our digital experiences."
     }), "\n", _jsxs(_components.ul, {
@@ -170,6 +170,16 @@ function _createMdxContent(props) {
             children: "Ultra"
           })
         }), ": Zero-Legacy Deno/React Suspense SSR Framework"]
+      }), "\n", _jsxs(_components.li, {
+        children: ["Podcast: ", _jsx(_components.a, {
+          href: "https://podcast.20minjs.com/1952066/11384885",
+          children: "20minJS: All about UltraJS combining React and Deno"
+        })]
+      }), "\n", _jsxs(_components.li, {
+        children: ["Podcast: ", _jsx(_components.a, {
+          href: "https://podrocket.logrocket.com/ultra",
+          children: "Podrocket: Ultra with Omar Mashaal"
+        })]
       }), "\n"]
     }), "\n", _jsx(_components.hr, {}), "\n", _jsxs(_components.h3, {
       id: "company-status-open-4-business",
