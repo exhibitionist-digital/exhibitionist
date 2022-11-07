@@ -8,9 +8,17 @@ const Split = ({ children }) => {
 const Video = ({ src, alt }) => {
   const el = useRef();
   const [x, setX] = useState(0);
+  const checkVisible = () => {
+    const rect = el.current.getBoundingClientRect();
+    const viewHeight = Math.max(
+      document.documentElement.clientHeight,
+      window.innerHeight,
+    );
+    return !(rect.bottom < 0 || rect.top - viewHeight >= 0);
+  };
   const check = () => {
+    if (!checkVisible()) return;
     const { top, height } = el.current.getBoundingClientRect();
-    // 0 = 100%
     const y = (100 - ((top / 2) - height)) / (height / 50);
     const w = window.innerWidth < 800 ? 100 : 50;
     setX(y > w ? w : y);
