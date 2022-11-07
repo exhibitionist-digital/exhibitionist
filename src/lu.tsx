@@ -17,10 +17,10 @@ const Video = ({ src, alt }) => {
     return !(rect.bottom < 0 || rect.top - viewHeight >= 0);
   };
   const check = () => {
-    if (!checkVisible()) return;
+    // if (!checkVisible()) return;
     const { top, height } = el.current.getBoundingClientRect();
     const y = (100 - ((top / 2) - height)) / (height / 50);
-    const w = window.innerWidth < 800 ? 100 : 50;
+    const w = window.innerHeight > window.innerWidth ? 100 : 50;
     setX(y > w ? w : y);
   };
   useEffect(() => {
