@@ -58,11 +58,8 @@ function _createMdxContent(props) {
         href: "https://hyper.tickets",
         children: "Hyper.tickets"
       })
-    }), "\n", _jsxs(_components.p, {
-      children: ["Modern digital tickets for museums and festivals. ", _jsx(_components.a, {
-        href: "https://hyper.tickets",
-        children: "Hyper.tickets"
-      })]
+    }), "\n", _jsx(_components.p, {
+      children: "Modern digital tickets for museums and festivals."
     }), "\n", _jsxs(_components.ul, {
       children: ["\n", _jsxs(_components.li, {
         children: [_jsx(_components.strong, {
@@ -81,11 +78,6 @@ function _createMdxContent(props) {
           children: "Dark Mofo"
         }), ": (2022—current)"]
       }), "\n"]
-    }), "\n", _jsxs(_components.p, {
-      children: ["Blog: ", _jsx(_components.a, {
-        href: "https://teacups.io/ticket-blaster",
-        children: "Mona: Museum Ticketing in the Year 2000"
-      })]
     }), "\n", _jsx(_components.hr, {}), "\n", _jsx(Video, {
       src: "/150.webp",
       alt: "150 Lonsdale"
