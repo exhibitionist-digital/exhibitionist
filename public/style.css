@@ -179,6 +179,7 @@ p {
 .xxx {
   height: 66vw;
   width: 0%;
+  will-change: transform;
   position: relative;
   backface-visibility: hidden;
   background: linear-gradient(
