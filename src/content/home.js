@@ -78,6 +78,11 @@ function _createMdxContent(props) {
           children: "Dark Mofo"
         }), ": (2022—current)"]
       }), "\n"]
+    }), "\n", _jsxs(_components.p, {
+      children: ["Blog: ", _jsx(_components.a, {
+        href: "https://teacups.io/ticket-blaster",
+        children: "Mona: Museum Ticketing in the Year 2000"
+      })]
     }), "\n", _jsx(_components.hr, {}), "\n", _jsx(Video, {
       src: "/150.webp",
       alt: "150 Lonsdale"
@@ -231,6 +236,13 @@ function _createMdxContent(props) {
           }), "\n", _jsxs(_components.li, {
             children: [_jsx(_components.strong, {
               children: _jsx(_components.a, {
+                href: "https://subspace.art",
+                children: "Subspace"
+              })
+            }), ": Self-organised digital museum (2020)"]
+          }), "\n", _jsxs(_components.li, {
+            children: [_jsx(_components.strong, {
+              children: _jsx(_components.a, {
                 href: "https://australiacouncil.gov.au",
                 children: "Australia Arts Council"
               })
@@ -309,6 +321,11 @@ function _createMdxContent(props) {
             children: _jsx(_components.a, {
               href: "https://github.com/deckchairlabs",
               children: "James Edmonds"
+            })
+          }), "\n", _jsx(_components.li, {
+            children: _jsx(_components.a, {
+              href: "https://inksniffer.net/",
+              children: "David Campbell"
             })
           }), "\n"]
         })]
