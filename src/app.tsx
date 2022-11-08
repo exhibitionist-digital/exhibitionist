@@ -79,9 +79,7 @@ export default function App({ root }) {
                   mixBlendMode: "screen",
                   backgroundAttachment: "fixed",
                   zIndex: 0,
-                  backgroundColor: "black",
-                  backgroundImage:
-                    `linear-gradient(125deg,#f09 30%,#fc8b00,#ff0,#00ff8a,#00cfff,#cc4cfa 70%)`,
+                  backgroundColor: "white",
                 }}
               >
                 <figure
