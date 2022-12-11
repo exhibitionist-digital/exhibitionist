@@ -19,7 +19,7 @@ function _createMdxContent(props) {
       id: "providing-digital-realities-for-artists-museums--festivals",
       children: "Providing digital realities for artists, museums + festivals"
     }), "\n", _jsx(_components.hr, {}), "\n", _jsx(Image, {
-      src: "/luyang.webp",
+      src: "/preview.gif",
       alt: "Dancer in front of screen"
     }), "\n", _jsx(_components.h3, {
       id: "lu-yang",
@@ -115,6 +115,21 @@ function _createMdxContent(props) {
         }), ": ", _jsx(_components.strong, {
           children: "Rising"
         }), " (2021—2022)"]
+      }), "\n"]
+    }), "\n", _jsx(_components.hr, {}), "\n", _jsx(Image, {
+      src: "/rising-2022.webp",
+      alt: "Rising"
+    }), "\n", _jsx(_components.h3, {
+      id: "rising",
+      children: "Rising"
+    }), "\n", _jsx(_components.p, {
+      children: "Digital platform for Melbourne festival."
+    }), "\n", _jsxs(_components.ul, {
+      children: ["\n", _jsx(_components.li, {
+        children: _jsx(_components.a, {
+          href: "https://rising.melbourne",
+          children: "Rising"
+        })
       }), "\n"]
     }), "\n", _jsx(_components.hr, {}), "\n", _jsx(Image, {
       src: "/faux-mo.webp",

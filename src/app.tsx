@@ -87,8 +87,9 @@ export default function App({ root }) {
                     mixBlendMode: "multiply",
                     backgroundPosition: "center",
                     background: "black",
+                    backgroundAttachment: "fixed",
                     position: "absolute",
-                    backgroundImage: `url(${useAsset("/texture.webp")})`,
+                    backgroundImage: `url(/14.webp)`,
                     backgroundSize: "clamp(1em, 100vmin, 50em)",
                   }}
                 >
