@@ -89,7 +89,7 @@ export default function App({ root }) {
                     background: "black",
                     backgroundAttachment: "fixed",
                     position: "absolute",
-                    backgroundImage: `url(/14.webp)`,
+                    backgroundImage: `url(${useAsset("/14.webp")})`,
                     backgroundSize: "clamp(1em, 100vmin, 50em)",
                   }}
                 >
