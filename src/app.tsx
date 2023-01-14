@@ -151,6 +151,7 @@ export default function App({ root }) {
               </strong>
             </p>
           </footer>
+          <a rel="me" href="https://merveilles.town/@mutualrespect" />
         </body>
       </html>
     </MDXProvider>
