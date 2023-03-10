@@ -90,8 +90,8 @@ export default function App({ root }) {
                     background: "black",
                     backgroundAttachment: "fixed",
                     position: "absolute",
-                    backgroundImage: `url(${useAsset("/14.webp")})`,
-                    backgroundSize: "clamp(1em, 100vmin, 50em)",
+                    backgroundImage: `url(${useAsset("/2.webp")})`,
+                    backgroundSize: "clamp(1em, 100vmin, 80vw)",
                   }}
                 >
                 </figure>
