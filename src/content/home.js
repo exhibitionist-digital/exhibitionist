@@ -340,10 +340,7 @@ function _createMdxContent(props) {
               children: "Rachel Mackay"
             })
           }), "\n", _jsx(_components.li, {
-            children: _jsx(_components.a, {
-              href: "https://www.eek-henry.com/",
-              children: "Henry Lai-Pyne"
-            })
+            children: "Henry Lai-Pyne"
           }), "\n", _jsx(_components.li, {
             children: _jsx(_components.a, {
               href: "https://inksniffer.net/",
