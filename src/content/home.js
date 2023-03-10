@@ -31,7 +31,7 @@ function _createMdxContent(props) {
         children: [_jsx(_components.a, {
           href: "https://www.sydneyoperahouse.com/events/whats-on/dance/2022/lu-yang-doku.html",
           children: "The Binary World"
-        }), ": ", _jsx(_components.strong, {
+        }), ":\n", _jsx(_components.strong, {
           children: "Sydney Opera House"
         }), " (2022)"]
       }), "\n", _jsxs(_components.li, {
@@ -88,16 +88,16 @@ function _createMdxContent(props) {
         children: "Stanislava Pinchuk"
       })
     }), "\n", _jsx(_components.p, {
-      children: "We made the climate change detector which powers dynamic lighting on the facade of 150 Lonsdale, where it will stay for the next 15 years."
+      children: "We made the climate change detector which powers dynamic lighting on the facade\nof 150 Lonsdale, where it will stay for the next 15 years."
     }), "\n", _jsxs(_components.ul, {
       children: ["\n", _jsxs(_components.li, {
         children: [_jsx(_components.a, {
           href: "https://www.broachedcommissions.com/",
           children: "Broached Commissions"
-        }), ": ", _jsx(_components.a, {
+        }), ":\n", _jsx(_components.a, {
           href: "https://www.wesleyplace.com.au/news/news-details/2022/09/14/introducing-axionome-by-stanislava-pinchuk",
           children: "Wesley Place"
-        }), " (2022—current)"]
+        }), "\n(2022—current)"]
       }), "\n"]
     }), "\n", _jsx(_components.hr, {}), "\n", _jsx(Image, {
       src: "/miracle.webp",
@@ -114,7 +114,7 @@ function _createMdxContent(props) {
           children: "A Miracle Constantly Repeated"
         }), ": ", _jsx(_components.strong, {
           children: "Rising"
-        }), " (2021—2022)"]
+        }), "\n(2021—2022)"]
       }), "\n"]
     }), "\n", _jsx(_components.hr, {}), "\n", _jsx(Image, {
       src: "/rising-2022.webp",
@@ -184,19 +184,19 @@ function _createMdxContent(props) {
             href: "https://ultrajs.dev",
             children: "Ultra"
           })
-        }), ": Zero-Legacy Deno/React Suspense SSR Framework"]
+        }), ": Zero-Legacy Deno/React Suspense SSR\nFramework"]
       }), "\n", _jsxs(_components.li, {
-        children: ["Twitch: ", _jsx(_components.a, {
+        children: ["Twitch:\n", _jsx(_components.a, {
           href: "https://www.twitch.tv/videos/1647983771",
           children: "iamdeveloper.com: Ultra, ESM and Web Standards"
         })]
       }), "\n", _jsxs(_components.li, {
-        children: ["Podcast: ", _jsx(_components.a, {
+        children: ["Podcast:\n", _jsx(_components.a, {
           href: "https://podcast.20minjs.com/1952066/11384885",
           children: "20minJS: All about UltraJS combining React and Deno"
         })]
       }), "\n", _jsxs(_components.li, {
-        children: ["Podcast: ", _jsx(_components.a, {
+        children: ["Podcast:\n", _jsx(_components.a, {
           href: "https://podrocket.logrocket.com/ultra",
           children: "Podrocket: Ultra with Omar Mashaal"
         })]
@@ -215,10 +215,17 @@ function _createMdxContent(props) {
           children: ["\n", _jsxs(_components.li, {
             children: [_jsx(_components.strong, {
               children: _jsx(_components.a, {
+                href: "https://phoenixcentralpark.com.au",
+                children: "Phoenix Central Park"
+              })
+            }), ": Balloting\nSystem"]
+          }), "\n", _jsxs(_components.li, {
+            children: [_jsx(_components.strong, {
+              children: _jsx(_components.a, {
                 href: "https://www.maas.museum/new-powerhouse",
                 children: "Powerhouse Sydney"
               })
-            }), ": Digital renewal"]
+            }), ": Digital\nrenewal"]
           }), "\n", _jsxs(_components.li, {
             children: [_jsx(_components.strong, {
               children: _jsx(_components.a, {
@@ -247,7 +254,7 @@ function _createMdxContent(props) {
                 href: "https://rising.melbourne",
                 children: "Rising"
               })
-            }), ": Program and ticketing digital platform (2021 + 2022)"]
+            }), ": Program and ticketing digital platform\n(2021 + 2022)"]
           }), "\n", _jsxs(_components.li, {
             children: [_jsx(_components.strong, {
               children: _jsx(_components.a, {
@@ -261,27 +268,27 @@ function _createMdxContent(props) {
                 href: "https://australiacouncil.gov.au",
                 children: "Australia Arts Council"
               })
-            }), ": ", _jsx(_components.a, {
+            }), ":\n", _jsx(_components.a, {
               href: "https://hubs.mozilla.com/D9Md29D/liveworks-day-for-night-rave",
               children: "Liveworks Day for Night Rave"
-            }), " (2021)"]
+            }), "\n(2021)"]
           }), "\n", _jsxs(_components.li, {
             children: [_jsx(_components.strong, {
               children: _jsx(_components.a, {
                 href: "https://australiacouncil.gov.au",
                 children: "Australia Arts Council"
               })
-            }), ": ", _jsx(_components.a, {
+            }), ":\n", _jsx(_components.a, {
               href: "https://hubs.mozilla.com/hs6uinL/enormous-timely-soiree",
               children: "Atong Atem Digital Exhibition"
-            }), " (2020)"]
+            }), "\n(2020)"]
           }), "\n", _jsxs(_components.li, {
             children: [_jsx(_components.strong, {
               children: _jsx(_components.a, {
                 href: "https://melbournefringe.com.au",
                 children: "Melbourne Fringe"
               })
-            }), ": Self-service uploader for community submissions (2020)"]
+            }), ": Self-service uploader\nfor community submissions (2020)"]
           }), "\n"]
         })]
       })]
@@ -314,13 +321,13 @@ function _createMdxContent(props) {
         }), _jsxs(_components.ul, {
           children: ["\n", _jsx(_components.li, {
             children: _jsx(_components.a, {
-              href: "https://github.com/shabbyrobe",
+              href: "https://git.sr.ht/~shabbyrobe",
               children: "Blake Williams"
             })
           }), "\n", _jsx(_components.li, {
             children: _jsx(_components.a, {
-              href: "https://www.eek-henry.com/",
-              children: "Henry Lai-Pyne"
+              href: "https://github.com/deckchairlabs",
+              children: "James Edmonds"
             })
           }), "\n", _jsx(_components.li, {
             children: _jsx(_components.a, {
@@ -329,13 +336,13 @@ function _createMdxContent(props) {
             })
           }), "\n", _jsx(_components.li, {
             children: _jsx(_components.a, {
-              href: "https://soundcloud.com/outhousemelbourne",
-              children: "Henry Rowe"
+              href: "https://www.rachelmackay.com.au/",
+              children: "Rachel Mackay"
             })
           }), "\n", _jsx(_components.li, {
             children: _jsx(_components.a, {
-              href: "https://github.com/deckchairlabs",
-              children: "James Edmonds"
+              href: "https://www.eek-henry.com/",
+              children: "Henry Lai-Pyne"
             })
           }), "\n", _jsx(_components.li, {
             children: _jsx(_components.a, {

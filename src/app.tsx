@@ -5,6 +5,7 @@ import {
   Jag,
   Mona,
   MonaFoma,
+  PCP,
   Powerhouse,
   Rising,
   SOH,
@@ -134,6 +135,7 @@ export default function App({ root }) {
               <Jag />
               <Mona />
               <MonaFoma />
+              <PCP />
               <Powerhouse />
               <Rising />
               <SOH />
