@@ -19,6 +19,14 @@ function _createMdxContent(props) {
       id: "providing-digital-realities-for-artists-museums--festivals",
       children: "Providing digital realities for artists, museums + festivals"
     }), "\n", _jsx(_components.hr, {}), "\n", _jsx(Image, {
+      src: "/powerhouse.gif",
+      alt: "Powerhouse Museum"
+    }), "\n", _jsx(_components.h3, {
+      id: "powerhouse",
+      children: "Powerhouse"
+    }), "\n", _jsx(_components.p, {
+      children: "Digital platform and renewal."
+    }), "\n", _jsx(_components.hr, {}), "\n", _jsx(Image, {
       src: "/preview.gif",
       alt: "Dancer in front of screen"
     }), "\n", _jsx(_components.h3, {
@@ -82,13 +90,16 @@ function _createMdxContent(props) {
       src: "/150.webp",
       alt: "150 Lonsdale"
     }), "\n", _jsx(_components.h3, {
-      id: "stanislava-pinchuk",
+      id: "axionome-by-stanislava-pinchuk",
       children: _jsx(_components.a, {
         href: "https://stanislavapinchuk.com",
-        children: "Stanislava Pinchuk"
+        children: "Axionome: by Stanislava Pinchuk"
       })
-    }), "\n", _jsx(_components.p, {
-      children: "We made the climate change detector which powers dynamic lighting on the facade\nof 150 Lonsdale, where it will stay for the next 15 years."
+    }), "\n", _jsxs(_components.p, {
+      children: [_jsx(_components.a, {
+        href: "https://axionome.150lonsdale.com.au",
+        children: "Axionome: 150 Lonsdale"
+      }), " is a graphic\nartwork which reflects the variations in historical and current temperature data\nin Australia. This is conveyed through a facade that morphs from day to night,\nplaying upon current conversations around climate change and global warming."]
     }), "\n", _jsxs(_components.ul, {
       children: ["\n", _jsxs(_components.li, {
         children: [_jsx(_components.a, {
@@ -219,13 +230,6 @@ function _createMdxContent(props) {
                 children: "Phoenix Central Park"
               })
             }), ": Balloting\nSystem"]
-          }), "\n", _jsxs(_components.li, {
-            children: [_jsx(_components.strong, {
-              children: _jsx(_components.a, {
-                href: "https://www.maas.museum/new-powerhouse",
-                children: "Powerhouse Sydney"
-              })
-            }), ": Digital\nrenewal"]
           }), "\n", _jsxs(_components.li, {
             children: [_jsx(_components.strong, {
               children: _jsx(_components.a, {

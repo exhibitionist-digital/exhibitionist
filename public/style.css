@@ -178,7 +178,8 @@ p {
   top: 0;
   left: 0;
   backface-visibility: hidden;
-  object-fit: cover;
+  object-position: top;
+  object-fit: contain;
   mix-blend-mode: screen;
 }
 
@@ -189,14 +190,14 @@ p {
   position: relative;
   transform: translate3d(0, 0, 0);
   backface-visibility: hidden;
-  background: linear-gradient(
+  /* background: linear-gradient(
     15deg,
     #cf49ff 10%,
     #00d0ff 25%,
     rgb(153, 0, 0) 48%
-  );
-  background-attachment: fixed;
-  mix-blend-mode: screen;
+  ); */
+  /* background-attachment: fixed;
+  mix-blend-mode: screen; */
   margin-right: 1rem;
 }
 
