@@ -36,7 +36,7 @@ const Image = ({ src, alt }) => {
     <div
       className="slider"
       ref={el}
-      style={{ width: `${x}%`, opacity: `${x * 2}%` }}
+      style={{ opacity: `${x * 1.25}%` }}
     >
       <img src={useAsset(src)} alt={alt} />
     </div>

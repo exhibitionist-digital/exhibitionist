@@ -1,6 +1,6 @@
 @font-face {
-  font-family: "LS";
-  src: url("./vctr.woff2");
+  font-family: 'LS';
+  src: url('./vctr.woff2');
   font-weight: 100 700;
   font-display: block;
 }
@@ -8,7 +8,7 @@
 html {
   color: #aaa;
   background: black;
-  font-family: "LS";
+  font-family: 'LS';
   font-smooth: always;
   font-size: 90%;
   line-height: 1.33;
@@ -171,12 +171,8 @@ p {
 
 .slider video,
 .slider img {
-  height: 100%;
+  height: auto;
   width: 100%;
-  position: absolute;
-  will-change: transform;
-  top: 0;
-  left: 0;
   backface-visibility: hidden;
   object-position: top;
   object-fit: contain;
@@ -184,8 +180,7 @@ p {
 }
 
 .slider {
-  height: 66vw;
-  width: 0%;
+  width: 100%;
   will-change: contents;
   position: relative;
   transform: translate3d(0, 0, 0);
@@ -206,6 +201,7 @@ p {
     transform: none;
     float: left;
     height: 33vw;
+    width: 50%;
   }
 }
 
@@ -244,8 +240,8 @@ a:focus {
   outline: none;
 }
 
-a[target="_blank"]:after {
-  content: "↑";
+a[target='_blank']:after {
+  content: '↑';
   transform: rotate(45deg);
   display: inline-block;
   margin: 0 0.125em 0 0.33em;
