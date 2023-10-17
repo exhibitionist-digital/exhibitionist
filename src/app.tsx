@@ -150,7 +150,7 @@ export default function App({ root }) {
             <p>
               <strong>
                 &mdash;{" "}
-                <a href="https://youtu.be/w6sEZz3qO-I?t=133" target="_blank">
+                <a href="https://youtu.be/p9p4a7XXa4k?t=295" target="_blank">
                   <em>Iva Davies</em>, Icehouse
                 </a>
               </strong>
